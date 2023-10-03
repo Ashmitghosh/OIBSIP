@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mooli', sans-serif;
+}
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(bg.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    color: brown;
+    border-radius: 20px;
+    padding: 2px 15px;
+    font-size: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+header .navigation a{
+    color: brown;
+    text-decoration: underline;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.5s;
+    transition-property: background;
+}
+header .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+header .navigation a:hover{
+    background-color: antiquewhite;
+}
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+.content .info h2{
+    color: black;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+.content .info h2 span{
+    color: #823737 ;
+    font-size: 30px;
+    font-weight: 500;
+}
+.content .info{
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    line-break: normal;
+    text-align: justify;
+}
+.content .info-btn{
+    color: white;
+    background-color: brown;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.content .info-btn:hover{
+    color: black;
+    background: antiquewhite;
+}
+
+.menu{
+    background-color: #823737 ;
+}
+body{box-align: center;}
+table { border: 10px solid antiquewhite;
+        border:collapse;
+        width: 1200px;
+		border-spacing: 0.5; 
+        margin: auto; }
+td, th { padding: 5px; 
+         font-family: URW Chancery L, cursive;
+         color: white;
+          text-align:center;
+         }
+caption { color: black;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+.card-content h3{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 40px;
+   
+}
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+}
+form input[type = text], form input[type = number], form input::placeholder, select{
+    color: #9a9a9a;
+}
+form input[type = submit]{
+    color: #fff;
+    background: #823737;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form input[type = submit]:hover{
+    opacity: 0.9;
+}
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.media-icons a{
+    position: relative;
+    color: #823737;
+    font-size: 40px;
+    transition: 0.5s;
+    transition-property: transform;
+}
+.media-icons a:not(:last-child){
+    margin-right :60px;
+}
+.media-icons a:hover{
+    transform: scale(1.5);
+}
+
